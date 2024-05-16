@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "ot+QWQZmGJYBv/zJ0ejYfr2eae7c731NwVJk6vlGyhfijrP5fgtRcROEITLb6Oh4gZFwJw07SNOn55TReHvsVA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\wg7201\\mallar\\project\\CoolWebsite\\CoolWebsite.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\wg7201\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.19.5\\microsoft.visualstudio.azure.containers.tools.targets.1.19.5.nupkg.sha512"
+  ],
+  "logs": []
+}
