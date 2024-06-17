@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\wg7201\\mallar\\project\\CoolWebsite\\CoolWebsite.csproj": {}
+    "C:\\Users\\wg7201\\hemsida\\OscarHanssonCV\\OscarHanssonCV-web\\CoolWebsite.csproj": {}
   },
   "projects": {
-    "C:\\Users\\wg7201\\mallar\\project\\CoolWebsite\\CoolWebsite.csproj": {
+    "C:\\Users\\wg7201\\hemsida\\OscarHanssonCV\\OscarHanssonCV-web\\CoolWebsite.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\wg7201\\mallar\\project\\CoolWebsite\\CoolWebsite.csproj",
+        "projectUniqueName": "C:\\Users\\wg7201\\hemsida\\OscarHanssonCV\\OscarHanssonCV-web\\CoolWebsite.csproj",
         "projectName": "CoolWebsite",
-        "projectPath": "C:\\Users\\wg7201\\mallar\\project\\CoolWebsite\\CoolWebsite.csproj",
+        "projectPath": "C:\\Users\\wg7201\\hemsida\\OscarHanssonCV\\OscarHanssonCV-web\\CoolWebsite.csproj",
         "packagesPath": "C:\\Users\\wg7201\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\wg7201\\mallar\\project\\CoolWebsite\\obj\\",
+        "outputPath": "C:\\Users\\wg7201\\hemsida\\OscarHanssonCV\\OscarHanssonCV-web\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\wg7201\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,9 +40,17 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Components.QuickGrid.EntityFrameworkAdapter": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
             "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
               "target": "Package",
               "version": "[1.19.5, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[8.0.2, )"
             }
           },
           "imports": [
@@ -64,7 +72,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.104/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.106/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

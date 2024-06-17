@@ -1,6 +1,7 @@
 {
   "ContentRoots": [
     "/src/wwwroot/",
+    "/.nuget/fallbackpackages/microsoft.aspnetcore.components.quickgrid/8.0.4/staticwebassets/",
     "/src/obj/Debug/net8.0/scopedcss/bundle/"
   ],
   "Root": {
@@ -25,6 +26,36 @@
           "ContentRootIndex": 0,
           "SubPath": "favicon.ico"
         },
+        "Patterns": null
+      },
+      "files": {
+        "Children": {
+          "CV Oscar Hansson.pdf": {
+            "Children": null,
+            "Asset": {
+              "ContentRootIndex": 0,
+              "SubPath": "files/CV Oscar Hansson.pdf"
+            },
+            "Patterns": null
+          },
+          "Examensarbete.pdf": {
+            "Children": null,
+            "Asset": {
+              "ContentRootIndex": 0,
+              "SubPath": "files/Examensarbete.pdf"
+            },
+            "Patterns": null
+          },
+          "Filosofie kandidatexamen Oscar Hansson.pdf": {
+            "Children": null,
+            "Asset": {
+              "ContentRootIndex": 0,
+              "SubPath": "files/Filosofie kandidatexamen Oscar Hansson.pdf"
+            },
+            "Patterns": null
+          }
+        },
+        "Asset": null,
         "Patterns": null
       },
       "js": {
@@ -557,10 +588,38 @@
         "Asset": null,
         "Patterns": null
       },
+      "_content": {
+        "Children": {
+          "Microsoft.AspNetCore.Components.QuickGrid": {
+            "Children": {
+              "QuickGrid.razor.js": {
+                "Children": null,
+                "Asset": {
+                  "ContentRootIndex": 1,
+                  "SubPath": "QuickGrid.razor.js"
+                },
+                "Patterns": null
+              },
+              "Microsoft.AspNetCore.Components.QuickGrid.bundle.scp.css": {
+                "Children": null,
+                "Asset": {
+                  "ContentRootIndex": 1,
+                  "SubPath": "Microsoft.AspNetCore.Components.QuickGrid.bundle.scp.css"
+                },
+                "Patterns": null
+              }
+            },
+            "Asset": null,
+            "Patterns": null
+          }
+        },
+        "Asset": null,
+        "Patterns": null
+      },
       "CoolWebsite.styles.css": {
         "Children": null,
         "Asset": {
-          "ContentRootIndex": 1,
+          "ContentRootIndex": 2,
           "SubPath": "CoolWebsite.styles.css"
         },
         "Patterns": null

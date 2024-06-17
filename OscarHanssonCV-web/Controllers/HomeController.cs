@@ -18,12 +18,12 @@ namespace CoolWebsite.Controllers
             return View();
         }
 
-        public IActionResult Privacy()
+        public IActionResult About()
         {
             return View();
         }
 
-        public IActionResult About()
+        public IActionResult Links()
         {
             return View();
         }
