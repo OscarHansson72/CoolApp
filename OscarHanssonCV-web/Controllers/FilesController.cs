@@ -13,7 +13,7 @@ namespace CoolWebsite.Controllers
         {
             string filesPath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "files");
 
-            List<Models.File> mediaList = new List<Models.File>();
+            List<Models.FileModel> mediaList = new List<Models.FileModel>();
 
             if (Directory.Exists(filesPath))
             {
@@ -24,7 +24,7 @@ namespace CoolWebsite.Controllers
                     string fileName = Path.GetFileName(file);
                     string fileType = Path.GetExtension(file);
 
-                    mediaList.Add(new Models.File { FileName = fileName, FileType = fileType });
+                    mediaList.Add(new Models.FileModel { FileName = fileName, FileType = fileType });
                 }
             }
 
